@@ -1,0 +1,49 @@
+.contenttitle{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+   
+    margin-left: 20px;
+  }
+  .border_line{
+    border: 1px solid rgb(255,230,156);
+    padding-left: -10px;
+    
+  }
+
+.fontstyle{
+    font-variant: small-caps;
+    color: gray;
+    padding: auto;
+}
+@media only screen and (max-width: 768px) {
+    .smallscreen{
+     font-size: 14px;
+    }
+ }
+ .card_container1 {
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    cursor: pointer;
+}
+
+.card_container1:hover {
+    opacity: 1;
+    transform: translateY(-10px); /* Adjusted translateY to -10px for a subtle hover effect */
+}
+
+.card {
+    width: 16rem;
+}
+
+.card-img-overlay .btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.bi-star-fill {
+    margin-right: 2px;
+}
+

@@ -1,0 +1,30 @@
+.cont{
+    height: 110px;
+    width: 100%;
+    background-color:whitesmoke;
+}
+
+.logo img{
+    padding-left: 50px;
+    height: 110px;
+    width: 180px;
+} 
+
+
+.menu li {
+    list-style-type: none;
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 19px;
+}
+.menu li:hover{
+    color: red;
+}
+
+
+.icon i{
+   font-size: 30px;
+   padding-right:50px ;
+}
+
+

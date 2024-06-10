@@ -1,0 +1,17 @@
+.imageitem{
+    display: flex;
+    gap: 40px;
+    margin: 100px 100px 10px 100px;
+}
+.vl{
+    border-left: 6px solid rgb(122, 124, 122);
+  height: 102px;
+  top: 0;
+}
+.review1008{
+   padding-top: 11px;
+
+}
+.staricon i{
+    color: gold;
+}
